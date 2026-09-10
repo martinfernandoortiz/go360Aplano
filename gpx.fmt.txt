@@ -1,0 +1,17 @@
+#------------------------------------------------------------------------------
+# Archivo de formato para generar GPX desde ExifTool
+#------------------------------------------------------------------------------
+#[HEAD]<?xml version="1.0" encoding="utf-8"?>
+#[HEAD]<gpx version="1.0"
+#[HEAD] creator="ExifTool"
+#[HEAD] xmlns="http://www.topografix.com/GPX/1/0">
+#[HEAD]<trk>
+#[HEAD]<number>1</number>
+#[HEAD]<trkseg>
+#[BODY]<trkpt lat="$gpslatitude#" lon="$gpslongitude#">
+#[BODY]  <ele>$gpsaltitude#</ele>
+#[BODY]  <time>$gpsdatetime</time>
+#[BODY]</trkpt>
+#[TAIL]</trkseg>
+#[TAIL]</trk>
+#[TAIL]</gpx>
