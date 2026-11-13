@@ -313,29 +313,6 @@ No. El video original se abre exclusivamente en modo lectura. Todo el contenido 
 
 ---
 
-## 📤 Instrucciones para subir a GitHub
-
-Para publicar este proyecto en tu cuenta de GitHub, ejecuta los siguientes comandos desde la terminal dentro de esta carpeta:
-
-```powershell
-# 1. Inicializar el repositorio Git local
-git init
-
-# 2. Configurar la rama principal
-git branch -M main
-
-# 3. Agregar todos los archivos (el .gitignore excluye automáticamente binarios y videos)
-git add .
-
-# 4. Registrar el commit inicial
-git commit -m "Commit inicial: Suite GoPro2Geo de telemetria, georreferenciacion y GUI 360"
-
-# 5. Vincular tu repositorio remoto de GitHub (reemplaza con tu URL)
-git remote add origin https://github.com/TU_USUARIO/gopro2geo.git
-
-# 6. Subir los archivos al repositorio
-git push -u origin main
-```
 
 ---
 
